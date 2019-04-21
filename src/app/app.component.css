@@ -22,13 +22,14 @@
 }
 */
 .contenedorprincipal{
-  background-color: black;
+  background-color: gray;
   display: grid;
   height: 100%;
-  grid-template-columns: 25% 50% 25%;
-  grid-template-rows: 25% 50% 25%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 .contenido{
   grid-column: 2;
   grid-row: 2;
+
 }
